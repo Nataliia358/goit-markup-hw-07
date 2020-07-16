@@ -8,11 +8,17 @@
     $font-family: Roboto, sans-serif;
     $font-family-logo: Raleway, sans-serif;
 
-    
+
 .list {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.visual-hidden {
+    display: none;
+    margin: 0;
+    padding: 0;
 }
 
 .section-title {
@@ -36,4 +42,16 @@
     letter-spacing: 0.03em;
     color: $secondary-text-color;
 
+}
+
+.font {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
 }

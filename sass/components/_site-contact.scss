@@ -18,14 +18,10 @@
 }
 
 .site-contact .link {
+    @extend .font;
     display: block;
-
     color: $primary-text-color;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     fill: $primary-text-color;
 
     transition: fill $timing-animation,
