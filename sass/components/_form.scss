@@ -141,6 +141,7 @@
     overflow: hidden;
 }
 
+
 .checkbox-icon {
     display: block;
     margin-right: 8px;
@@ -151,7 +152,7 @@
 
     .checkbox:checked + & {
         background-color: $accent-color;
-        background-image: url(../images/icon\ check\ \(1\).svg);
+        background-image: url("../images/icon\ check\ \(1\).svg");
         background-size: contain;
         background-origin: content-box;
         border-color: $accent-color;
