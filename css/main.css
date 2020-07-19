@@ -789,7 +789,6 @@ body {
   margin-right: 8px;
   width: 15px;
   height: 15px;
-  color: #ffffff;
   border: 0.75px solid #212121;
   border-radius: 2px;
 }
@@ -805,7 +804,7 @@ body {
 /*
 .checkbox:checked + .checkbox-icon {
     background-color: $accent-color;
-    background-image: url(../images/icon\ check\ \(1\).svg);
+    background-image: url("../images/icon\ check\ \(1\).svg");
     background-size: contain;
     background-origin: content-box;
     border-color: $accent-color;
@@ -1087,6 +1086,16 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 60px;
   padding-bottom: 21px;
+}
+
+.container-port {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .address-list {
